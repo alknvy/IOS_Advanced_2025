@@ -4,7 +4,7 @@ struct MainProfileView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image("profile_picture") // Добавьте фото в Assets.xcassets
+                Image("profile_picture") 
                     .resizable()
                     .frame(width: 150, height: 150)
                     .clipShape(Circle())
